@@ -2,7 +2,10 @@
 
 body {
 margin: 0;
-font-size: 16px;
+font-size: 18px;
+font-family: -apple-system, 
+BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", 
+Arial, "Noto Sans", sans-serif;
 }
 
 .container {
@@ -16,6 +19,7 @@ width: 100%;
 header {
 padding: 16px 0;
 border-bottom: 1px solid #e5e7eb;
+background-color: #ffffff;
 }
 
 header .container {
@@ -26,7 +30,7 @@ justify-content: space-between;
 
 header h1 {
 margin: 0;
-font-size: 1.6rem;
+font-size: 18px;
 font-weight: 800;
 }
 
@@ -40,17 +44,21 @@ gap: 16px;
 
 header nav a {
 text-decoration: none;
-color: #1f2937;
+color: #6b7280;
+font-size: 18px;
 font-weight: 600;
 }
 
-header nav a:hover {text-decoration: underline; }
+header nav a:hover {
+color: #5A67D8;
+text-decoration: none; 
+}
 
 
 
 
 .overview-hero {
-background: #e5f0fa;
+background: #E2E8F0;
 padding: 40px 0;
 margin-bottom: 40px;
 }
@@ -97,9 +105,9 @@ padding: 20px 0;
 
 .learn-about h2 {
 margin: 0 0 16px;
-font-size: 1.6rem;
+font-size: 24px;
 font-weight: 800;
-color: #1f2937
+color: #48BB78;
 }
 
 .learn-about .cards {
@@ -118,8 +126,9 @@ margin: 0 auto;
 
 .card {
 background: #ffffff;
-border: 1px solid #e5e7eb;
-border-radius: 8px;
+border: 1px solid #E2E8F0;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 overflow: hidden;
 display: flex;
 flex-direction: column;
@@ -136,15 +145,14 @@ margin-bottom: 20px;
 }
 
 .card-body {
-padding: 16 px;
+padding: 16px;
 }
 
 .card-body h3 {
 margin: 0 0 8px;
-font-size: 1.1rem;
+font-size: 21px;
 font-weight: 700;
-color: #111827;
-padding: 0 10px;
+color: #48BB78;
 }
 
 .card-body p {
@@ -160,6 +168,8 @@ padding: 0 10px;
 .testing {
 margin: 40px 0;
 padding: 20px 0;
+background-color: #4A5568;
+color: #ffffff;
 }
 
 .testing .container {
@@ -176,11 +186,13 @@ margin-right: 20px;
 .testing-desciption h2 {
 margin: 0 0 10px 0;
 font-size: 1.6rem;
+color: #ffffff;
 }
 
 .testing-desciption p {
 line-height: 1.6;
 margin: 0;
+color: #ffffff;
 }
 
 .cta {
@@ -191,16 +203,16 @@ margin-left: 70px;
 display: inline-block;
 white-space: nowrap;
 padding: 12px 24px;
-background-color: #d6336c;
-color: #fff;
+background-color: #48BB78;
+color: #ffffff;
 border: none;
-border-radius: 4px;
+border-radius: 5px;
 text-decoration: none;
 font-weight: 600;
 }
 
 .cta .btn:hover {
-background-color: #b02a5b;
+background-color: #3aa267;
 }
 
 
@@ -214,7 +226,7 @@ padding: 20px 0;
 .stories h2 {
 margin: 0 0 24px;
 font-size: 1.6rem;
-color: #1f2937;
+color: #5A67D8;
 }
 
 .stories article {
@@ -234,19 +246,20 @@ background-color: #e5e7eb;
 
 .stories .article-body h3 {
 margin: 0 0 8px;
-font-size: 1.1rem;
+font-size: 18px;
 font-weight: 700;
 color: #111827;
 }
 
 .stories .article-body p {
 margin: 0 0 8px;
-line-height: 1.5;
+line-height: 1.6;
 color: #374151;
+fnt-size: 16px;
 }
 
 .stories .article-body a {
-color: #1f2937;
+color: #5A67D8;
 font-weight: 600;
 text-decoration: none;
 }
@@ -259,9 +272,15 @@ text-decoration: underline;
 
 
 .newsletter {
+background-color: #48BB78;
+color: #ffffff;
+padding: 40px 0;
+}
+
+.newsletter .container {
+max-width: 960px;
+margin: 0 auto;
 text-align: center;
-margin: 40px 0;
-padding: 30px 0
 }
 
 .newsletter h3 {
@@ -279,40 +298,36 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 10px;
-}
-
-.newsletter .form-group {
 margin: 0;
 }
 
 .newsletter input[type="email"] {
 padding: 10px;
-width: 200px;
+width: 260px;
 border: 1px solid #ccc;
 border-radius: 4px;
 font-size: 1rem;
 }
 
 .newsletter .btn {
-padding: 10px 20px;
+padding: 10px 24px;
 border: none;
 border-radius: 4px;
 font-weight: 600;
 cursor: pointer;
+background-color: #5A67D8;
+color: #ffffff;
 }
 
 
 
 
+footer {
+background-color: #4A5568;
+color: #ffffff;
+padding: 20px 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+footer p {
+margin: 0;
+}
