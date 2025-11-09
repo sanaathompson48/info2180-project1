@@ -191,8 +191,53 @@ background-color: #b02a5b;
 
 
 
+.stories {
+padding: 48px;
+}
 
+.stories h2 {
+margin: 0 0 24px;
+font-size: 1.6rem;
+color: #1f2937;
+}
 
+.stories article {
+display: flex;
+align-items: flex-start;
+gap: 24px;
+margin-bottom: 32px;
+}
+
+.stories article img {
+width: 120px;
+height: 120px;
+border-radius: 50%;
+object-fit: cover;
+background-color: #e5e7eb;
+}
+
+.stories .article-body h3 {
+margin: 0 0 8px;
+font-size: 1.1rem;
+font-weight: 700;
+color: #111827;
+}
+
+.stories .article-body p {
+margin: 0 0 8px;
+line-height: 1.5;
+color: #374151;
+}
+
+.stories .article-body a {
+color: #1f2937;
+font-weight: 600;
+text-decoration: none;
+}
+
+.stories .article-body a:hover {
+text-decoration: underline;
+}
 
 
 
