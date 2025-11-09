@@ -146,6 +146,51 @@ color: #374151;
 
 
 
+.testing {
+padding: 40px 0;
+background color: #f9fafb;
+margin-bottom: 40px;
+}
+
+.testing .container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.testing-description {
+max-width: 70%;
+}
+
+.testing-description h2 {
+margin-top: 0;
+color: #1f2937;
+font-size: 1.6rem;
+}
+
+.testing-description p {
+color: #374151;
+line-height: 1.6;
+}
+
+.cta .btn {
+display: inline-block;
+padding: 10px 24px;
+background-color: #d6336c;
+color: #fff;
+border: none;
+border-radius: 4px;
+text-decoration: none;
+font-weight: 600;
+}
+
+.cta .btn:hover {
+background-color: #b02a5b;
+}
+
+
+
+
 
 
 
